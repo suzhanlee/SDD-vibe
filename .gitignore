@@ -1,0 +1,106 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+.gradletasknamecache
+
+### Spring Boot ###
+**/target/
+**/out/
+**/bin/
+application-local.yml
+application-local.yaml
+application-local.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!.idea/runConfigurations/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+*.launch
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Logs ###
+*.log
+logs/
+spring.log
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+### Test Coverage Reports ###
+*.exec
+.jacoco/
+jacoco.exec
+coverage/
+
+### MoAI-ADK specific (keep these) ###
+# .moai/ - tracked for project docs
+# .claude/ - tracked for Alfred configuration
+.moai-backups/
+
+### Sensitive data (never commit) ###
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+secrets/
+credentials/
