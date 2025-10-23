@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(moai-alfred-interactive-questions)",
+      "Bash(if [ -f .moai/config.json ])",
+      "Bash(then cat .moai/config.json)",
+      "Bash(else echo \"No config.json found\")",
+      "Bash(fi)",
+      "Bash(if [ -d .moai/project ])",
+      "Bash(then ls -la .moai/project)",
+      "Bash(else echo \"No project directory found\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

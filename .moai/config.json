@@ -1,0 +1,52 @@
+{
+  "projectName": "SDD-vibe-2",
+  "projectDescription": "스펙주도 개발(SDD)로 바이브 코딩 연습 - E-commerce 쇼핑몰",
+  "mode": "team",
+  "locale": "ko",
+  "conversation_language": "ko",
+  "conversation_language_name": "한국어",
+  "user_nickname": "suzhanlee",
+  "language": "java",
+  "language_detection": {
+    "detected_language": "java",
+    "detection_method": "user_input",
+    "confidence": "high",
+    "markers": [
+      "Spring Boot 3.x",
+      "Java 17+",
+      "JPA"
+    ],
+    "confirmed_by": "suzhanlee"
+  },
+  "tech_stack": {
+    "language": "Java",
+    "version": "17+",
+    "framework": "Spring Boot 3.x",
+    "orm": "Spring Data JPA",
+    "database": "H2 (dev), PostgreSQL (prod - 추후)",
+    "build_tool": "Gradle 8.x",
+    "test_framework": "JUnit 5 + Mockito",
+    "coverage_target": 85
+  },
+  "project": {
+    "domain": "E-commerce",
+    "users": [
+      "구매자 (Customer)",
+      "판매자 (Seller)",
+      "관리자 (Admin)"
+    ],
+    "learning_goals": [
+      "SPEC 기반 TDD 실전 연습",
+      "복잡한 비즈니스 로직 모델링",
+      "Spring/JPA 실무 역량 강화"
+    ],
+    "success_metrics": {
+      "spec_count": "50개 이상",
+      "test_coverage": "85% 이상",
+      "core_features": "상품, 주문, 결제, 재고 관리"
+    },
+    "optimized": true,
+    "initialized_at": "2025-10-23"
+  },
+  "moai_adk_version": "0.4.10"
+}
